@@ -145,8 +145,8 @@ func move_camera():
 	tactics_camera.move_camera(h, v, is_joystick)
 
 func camera_rotation():
-	if Input.is_action_just_pressed("camera_rotate_left"): tactics_camera.y_rot -= 90
-	if Input.is_action_just_pressed("camera_rotate_right"): tactics_camera.y_rot += 90
+	if Input.is_action_pressed("camera_rotate_left"): tactics_camera.y_rot -= 1
+	if Input.is_action_pressed("camera_rotate_right"): tactics_camera.y_rot += 1
 
 
 func act(var delta):
