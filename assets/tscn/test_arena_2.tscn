@@ -733,6 +733,6 @@ mesh = SubResource( 37 )
 material/0 = null
 
 [node name="Terrain" type="MeshInstance" parent="."]
-transform = Transform( 9, 0, 0, 0, 1, 0, 0, 0, 4, 0, -0.1, 0 )
+transform = Transform( 11, 0, 0, 0, 1, 0, 0, 0, 6, 0, -0.1, 0 )
 mesh = SubResource( 39 )
 material/0 = null

@@ -21,21 +21,21 @@ script = ExtResource( 3 )
 script = ExtResource( 5 )
 
 [node name="Pawn" parent="Player" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0.5, 1.5 )
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4, 0.5, 1.5 )
 pawn_class = 1
 pawn_name = "Diana"
 
 [node name="Pawn2" parent="Player" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.5, 0.5 )
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3, 0.5, 0.5 )
 pawn_name = "Clark"
 
 [node name="Pawn3" parent="Player" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, -1.5 )
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1, 0.5, -1.5 )
 pawn_class = 3
 pawn_name = "Shayera"
 
 [node name="Pawn4" parent="Player" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.5, -0.5 )
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2, 0.5, -0.5 )
 pawn_class = 2
 pawn_name = "Bruno"
 
@@ -43,26 +43,26 @@ pawn_name = "Bruno"
 script = ExtResource( 6 )
 
 [node name="Pawn5" parent="Enemy" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0.5, -1.5 )
+transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 1, 0.5, -1.5 )
 pawn_class = 4
 pawn_name = "Dingus"
 
 [node name="Pawn6" parent="Enemy" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, 0.5 )
+transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 3, 0.5, 0.5 )
 pawn_class = 5
 pawn_name = "Ricardo"
 
 [node name="Pawn7" parent="Enemy" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0.5, 1.5 )
+transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 4, 0.5, 1.5 )
 pawn_class = 6
 pawn_name = "Dink"
 
 [node name="Pawn8" parent="Enemy" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0.5, 1.5 )
+transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 1, 0.5, 1.5 )
 pawn_class = 4
 pawn_name = "Kori"
 
 [node name="Pawn9" parent="Enemy" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, -1.5 )
+transform = Transform( 1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 3, 0.5, -1.5 )
 pawn_class = 6
 pawn_name = "Raven"
