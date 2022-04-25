@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="godot-tactical-rpg"
-run/main_scene="res://assets/tscn/test_level.tscn"
+run/main_scene="res://assets/tscn/test_level_2.tscn"
 config/icon="res://icons/icon.png"
 
 [input]
